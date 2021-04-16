@@ -8,6 +8,8 @@ Allows the user to filter the data by month and day
 
 Additional feature includes allowing users to review the raw data 5 rows as a time
 
+Python libraries used: Time, numpy and pandas
+
 ### Files used
 Python code:
 bikeshareprojectfinal
