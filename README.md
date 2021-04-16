@@ -1,17 +1,26 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
+### 16th April 2021
 
-### Date created
-Include the date you created this project and README file.
-
-### Project Title
-Replace the Project Title
+### Bike Share Project
 
 ### Description
-Describe what your project is about and what it does
+Takes user input through a terminal on which city to analyse and provides a standard set of metrics
+Allows the user to filter the data by month and day
 
 ### Files used
-Include the files used
+Python code:
+bikeshareprojectfinal
+
+City data used:
+Washington
+Chicago
+New York City
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Historical trip data available here including licence agreement
+https://www.divvybikes.com/system-data
 
+Original repository taken from here
+https://github.com/udacity/pdsnd_github
+
+Python code framework provided by in their nano degree
+https://www.udacity.com/
