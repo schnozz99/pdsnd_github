@@ -13,7 +13,7 @@ valid_days = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun', 'all']
 try_again_message = "\nPlease enter a valid option"
 exit_message = "\nTo exit programme press ctrl c\n"
 
-Testrun = 1
+testrun = 1
 
 def get_filters():
     """
@@ -211,8 +211,13 @@ def main():
         trip_duration_stats(df)
         user_stats(df)
 
-        valid = 0
-        more_data = 0
+        if testrun = 1:
+            valid = 1
+            more_data = 1
+        else :
+            valid = 0
+            more_data = 0
+            
         while valid == 0 or more_data == 0:
             data_request = input("\nWould you like to see the raw data, enter Y or N:").upper()
             if data_request in ['Y', 'N']:
