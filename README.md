@@ -6,6 +6,8 @@
 Takes user input through a terminal on which city to analyse and provides a standard set of metrics
 Allows the user to filter the data by month and day
 
+Additional feature includes allowing users to review the raw data 5 rows as a time
+
 ### Files used
 Python code:
 bikeshareprojectfinal
