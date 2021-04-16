@@ -13,6 +13,8 @@ valid_days = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun', 'all']
 try_again_message = "\nPlease enter a valid option"
 exit_message = "\nTo exit programme press ctrl c\n"
 
+Testrun = 1
+
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -23,10 +25,11 @@ def get_filters():
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
     print('Hello! Let\'s explore some US bikeshare data!')
-    valid = 1
-    city = 'chicago'
-    month = 'jan'
-    day = 'mon'
+    if testrun = 1:
+        valid = 1
+        city = 'chicago'
+        month = 'jan'
+        day = 'mon'
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     #valid = 0
     options = ''
